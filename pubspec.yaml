@@ -1,0 +1,38 @@
+name: project_template
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  dio_request_inspector: ^3.1.4
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+  flutter_dotenv: ^5.2.1
+  flutter_svg: ^2.0.10+1
+  get: ^4.6.6
+  mocktail: ^1.0.4
+  slang: ^4.1.0
+  logger: ^2.4.0
+  dio: ^5.7.0
+  get_it: ^8.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - lib/presentation/flavor/env/
