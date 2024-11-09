@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 // import '../data/models/error_model.dart';
 
-extension ErrorResponseExtension on Response {
+extension ErrorResponseExtension on Response<dynamic> {
 
   String get errorMessage {
     // TODO: implement errorMessage
