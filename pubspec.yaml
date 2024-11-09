@@ -10,19 +10,23 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
 
   cupertino_icons: ^1.0.6
+  dio: ^5.7.0
   dio_request_inspector: ^3.1.4
   dartz: ^0.10.1
   equatable: ^2.0.5
   flutter_dotenv: ^5.2.1
   flutter_svg: ^2.0.10+1
   get: ^4.6.6
-  mocktail: ^1.0.4
-  slang: ^4.1.0
-  logger: ^2.4.0
-  dio: ^5.7.0
   get_it: ^8.0.2
+  intl: ^0.19.0
+  mocktail: ^1.0.4
+  logger: ^2.4.0
+  slang: ^4.1.0
+  slang_flutter: ^4.1.0
 
 dev_dependencies:
   flutter_test:
@@ -36,3 +40,4 @@ flutter:
   
   assets:
     - lib/presentation/flavor/env/
+    - resources/i18n/

@@ -1,0 +1,11 @@
+fallback_strategy: base_locale
+output_directory: lib/presentation/core/generated/i18n
+output_file_name: translations.g.dart
+output_format: single_file
+class_name: Translations
+translation_class_visibility: private
+key_case: camel
+key_map_case: camel
+param_case: camel
+string_interpolation: dart
+namespaces: true
